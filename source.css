@@ -11,21 +11,21 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
 :root {
   /*Global variables that were made/edited by me*/
   --Main-Color: rgb(142, 145, 148); /*main master color*/
-  --Secondary-Color: rgb(170, 0, 158); /*secondary color*/
-  --Third-Color: rgb(110,0,158); /*third color*/
-  --Color-4: rgb(90,0,158); /*color number 4*/
-  --Color-5: hsla(320, 40%, 40%, 0.366); /*color number 5*/
-  --Color-6: hsla(320, 50%, 50%, 0.466); /*color number 6*/
+  --Secondary-Color: rgb(105, 105, 105); /*secondary color*/
+  --Third-Color: rgb(16, 3, 156); /*third color*/
+  --Color-4: rgb(0, 113, 158); /*color number 4*/
+  --Color-5: hsl(172, 42%, 51%); /*color number 5*/
+  --Color-6: hsl(222°, 100%, 32%); /*color number 6*/
   --Grey-Color: rgb(31, 31, 31); /*grey color*/
   --Black: rgb(0,0,0); /*black color*/
   --White: rgb(255,255,255); /*white color*/
   --White-Second: rgb(175, 175, 175); /*white but gray color*/
   --Red-color: rgb(255,0,0); /*red color*/
-  --Neon-Line: 150,0,150; /*master neon color*/
-  --Neon-Line2: 255,0,0; /*red neon line*/
+  --Neon-Line: 0, 148, 113; /*master neon color*/
+  --Neon-Line2: 93, 186, 0; /*red neon line*/
   --Neon-Rgb: var(--Neon-Line); /*neon node #1*/
   --Neon-Rgb2: var(--Neon-Line2); /*red noen node #2*/
-  --Cards-Background-Color: rgb(63, 0, 64);/*darker cards color*/
+  --Cards-Background-Color: rgb(0, 20, 64);/*darker cards color*/
   /*Backgrounds*/
   --master-background: url('https://github.com/xy-nyxy/AnotherEternity/blob/main/background/Master%20Background.png?raw=true'); /*master background*/
   --background-floating: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)) , var(--master-background)50% 50%/cover !important; /*background used in normal discord's code*/
@@ -38,7 +38,7 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      $$\   $$ |
   /*Borders*/
   --border1: 2px solid var(--Secondary-Color); /*master border*/
   --border2: 2px solid var(--Third-Color); /*border 2*/
-  --border3: 2px solid rgb(90,0,150); /*border 3*/
+  --border3: 2px solid rgb(0, 38, 150); /*border 3*/
   
   /*Others variables*/
   /*Radial status*/
